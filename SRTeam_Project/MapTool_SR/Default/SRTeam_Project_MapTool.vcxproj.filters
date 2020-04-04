@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{31797e04-f713-4925-86a0-b49df8b79294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.MainFrm">
+      <UniqueIdentifier>{6540853c-4ca0-47ad-8955-ace7ca39988e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View">
+      <UniqueIdentifier>{3d9afa47-43c5-435e-a422-25cfdad0a4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{c730cb34-07d1-47b9-93ad-06e1125a34bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{933daf3c-02b6-41e9-8bfc-1b5fe5fac6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{743a7463-1dad-44b5-8b59-d9a2d73afa8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{6b5ef217-829a-4916-a067-2825bc481aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.Camera">
+      <UniqueIdentifier>{3175ddec-b31e-4c85-90ae-61d9483700c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.Camera\00.Camera_Dynamic">
+      <UniqueIdentifier>{32043ef9-2b78-4751-ac0c-bc3cfec36ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\00.For.Key">
+      <UniqueIdentifier>{ddc7304d-d527-497d-b637-e76a9de2c278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.NotUse">
+      <UniqueIdentifier>{81696e06-28dd-44c3-b0d2-42957b79cf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.NotUse\00.BackGround">
+      <UniqueIdentifier>{19de0006-f0cc-469a-a72a-2ced801661cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.Logo">
+      <UniqueIdentifier>{1e7d364f-e888-4680-9059-736735081b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\Test">
+      <UniqueIdentifier>{d5a0cc55-b1f0-49a7-af0c-f4cb8d43186d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\00.MainForm">
+      <UniqueIdentifier>{01dbad59-3c23-4d30-900c-8fbe9ee0faa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\01.CubeTool">
+      <UniqueIdentifier>{6e8d027e-0b9e-4ba6-b2d0-a257cc7702c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\02.ObjTool">
+      <UniqueIdentifier>{b8ccc7a9-2174-4ab3-988d-7b3e4f577a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.Logo\00.Terrain">
+      <UniqueIdentifier>{86d1d796-cf4c-4e6e-88b9-48c25ba090dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.Logo\01.Cube">
+      <UniqueIdentifier>{41c2860c-0ce6-44e3-897e-682904ba9adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\00.For.Logo%28Main%29">
+      <UniqueIdentifier>{88ddeac6-30f5-4c9b-9902-b604b82b196b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\03.MonsterTool">
+      <UniqueIdentifier>{d8f42e93-50c1-408f-b1ec-91d47582505e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.View\04.ItemTool">
+      <UniqueIdentifier>{17c0afef-848e-4eb0-8217-8a1c448f8060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.Logo\02.Object">
+      <UniqueIdentifier>{a903622d-a8ce-435b-b27a-6909ec1b70f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.Logo\03.Monster">
+      <UniqueIdentifier>{a602ebd0-5ab3-4c87-9e1c-35c6b423ab7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\For.Logo\04.Item">
+      <UniqueIdentifier>{8091231a-ad80-464a-8f25-7abc0c2f7a93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SRTeam_Project_MapTool.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SRTeam_Project_MapToolDoc.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="SRTeam_Project_MapToolView.h">
+      <Filter>01.View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Constant.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Logo.h">
+      <Filter>04.Scene\00.For.Logo%28Main%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Logo.h">
+      <Filter>03.GameObject\For.NotUse\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera_Dynamic.h">
+      <Filter>03.GameObject\For.Camera\00.Camera_Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\KeyMgr.h">
+      <Filter>02.Manager\00.For.Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Terrain.h">
+      <Filter>03.GameObject\For.Logo\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Cube.h">
+      <Filter>03.GameObject\For.Logo\01.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>01.View\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <Filter>01.View\00.MainForm</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Tool.h">
+      <Filter>01.View\02.ObjTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Object.h">
+      <Filter>03.GameObject\For.Logo\02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube_Tool.h">
+      <Filter>01.View\01.CubeTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Tool.h">
+      <Filter>01.View\03.MonsterTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster.h">
+      <Filter>03.GameObject\For.Logo\03.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Tool.h">
+      <Filter>01.View\04.ItemTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Item.h">
+      <Filter>03.GameObject\For.Logo\04.Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRTeam_Project_MapTool.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SRTeam_Project_MapToolDoc.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="SRTeam_Project_MapToolView.cpp">
+      <Filter>01.View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Logo.cpp">
+      <Filter>04.Scene\00.For.Logo%28Main%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Logo.cpp">
+      <Filter>03.GameObject\For.NotUse\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera_Dynamic.cpp">
+      <Filter>03.GameObject\For.Camera\00.Camera_Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\KeyMgr.cpp">
+      <Filter>02.Manager\00.For.Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>03.GameObject\For.Logo\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Cube.cpp">
+      <Filter>03.GameObject\For.Logo\01.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>01.View\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>01.View\00.MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Tool.cpp">
+      <Filter>01.View\02.ObjTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Object.cpp">
+      <Filter>03.GameObject\For.Logo\02.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube_Tool.cpp">
+      <Filter>01.View\01.CubeTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Tool.cpp">
+      <Filter>01.View\03.MonsterTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster.cpp">
+      <Filter>03.GameObject\For.Logo\03.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Tool.cpp">
+      <Filter>01.View\04.ItemTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Item.cpp">
+      <Filter>03.GameObject\For.Logo\04.Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SRTeam_Project_MapTool.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SRTeam_Project_MapTool.rc2">
+      <Filter>99.Default\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SRTeam_Project_MapToolDoc.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\SRTeam_Project_MapTool.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_0.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_1.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_2.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_3.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_4.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_5.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_6.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_7.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_8.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_9.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_10.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_11.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_12.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_13.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Resources\Wall\Wall_14.png">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

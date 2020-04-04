@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{9cb578b4-bdca-4608-9d0c-d81c96deeaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{c7fe7bf0-581a-4504-8ee6-d1bf62866340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{1892003a-f944-4712-af37-03e80ab3c210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{4edd1f60-1d5b-40f0-8525-f2c3fd941079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{f746c4bf-0eea-48a5-9853-4c17892a6448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{bed7823d-d609-4448-85d6-12d00eb834af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Scene_Logo">
+      <UniqueIdentifier>{d36c47f8-3add-4590-b086-95eeacacc6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Scene_Menu">
+      <UniqueIdentifier>{99c1eae8-1686-432f-9e50-7f749cce5f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.Scene_Stage1">
+      <UniqueIdentifier>{af13173e-789f-4dc7-83d0-cf770fd7e946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\03.Scene_Stage2">
+      <UniqueIdentifier>{38527ff7-b65f-48d4-92d2-d601a116277f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\04.Scene_Stage3">
+      <UniqueIdentifier>{9538611e-dfc1-4018-9e68-9b1bf4637841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\00.SceneMgr">
+      <UniqueIdentifier>{29da2fd3-de1b-43cc-b583-ba9d3b42bc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Menu">
+      <UniqueIdentifier>{56f449df-4fdf-4f7a-ac17-c2d7341d0c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public">
+      <UniqueIdentifier>{2a6b132e-77cd-4df8-8fee-ff84781285af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\00.Dynamic_Camera">
+      <UniqueIdentifier>{16dd961c-0e8f-44c8-89fa-7dab7892bffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\01.Static_Camera">
+      <UniqueIdentifier>{f0a59fc1-448b-4f11-acf4-032a4845d60c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\02.Player">
+      <UniqueIdentifier>{12157efc-aaa4-4b3e-a69a-2a1daf811b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\SkyBox">
+      <UniqueIdentifier>{e318d2e2-8749-4ce8-beba-3c9566905a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\03.UI">
+      <UniqueIdentifier>{23a9809a-8083-46db-9c7a-4439459e320f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1">
+      <UniqueIdentifier>{426491ff-cabf-4d8f-a2c9-b8ad46779e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\02.Terrain">
+      <UniqueIdentifier>{9b9c515b-0007-40e1-80ae-f21b2e915ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster">
+      <UniqueIdentifier>{2a98afa7-0fcb-48f5-9949-bbc00731c0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\00.Imp">
+      <UniqueIdentifier>{d8274a10-4104-40c2-9b83-3135d9594b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\01.Afrit">
+      <UniqueIdentifier>{0ab8d922-0c38-418a-9692-a8601bf2bf0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\05.Stage3">
+      <UniqueIdentifier>{e133512a-2265-46e3-9bfe-b1247bb77028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Logo">
+      <UniqueIdentifier>{20569108-e5e5-4c34-a986-2691d635b119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\01.CollisionMgr">
+      <UniqueIdentifier>{2a39d970-c02e-424f-8050-816149acf950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Menu\00.MainMenu">
+      <UniqueIdentifier>{948630ef-dce8-4771-bfb9-d2029f4a69ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\02.Menu\01.MenuButton">
+      <UniqueIdentifier>{db100766-86aa-4f22-add1-0ac336eb1323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet">
+      <UniqueIdentifier>{f7b9fc37-38cf-46eb-98fa-cb1bba237c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\00.Basic">
+      <UniqueIdentifier>{0a13e320-a72e-4ab4-aea9-573a4375d602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\01.ShotGun">
+      <UniqueIdentifier>{6c5795bc-86f9-4f69-a658-704f92ccdf35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\03.ChainGun">
+      <UniqueIdentifier>{825eaed1-7b30-4374-8235-6acfd18452ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\04.PlasmaGun">
+      <UniqueIdentifier>{a6257436-ecc6-4162-8e47-67aef9363931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\99.Monster_Collision">
+      <UniqueIdentifier>{2f4d8c5a-1577-4893-8c8e-c264afb0a924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\Cube">
+      <UniqueIdentifier>{d3b32c7b-cb20-418b-a94d-d3945e647b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\Object">
+      <UniqueIdentifier>{822c989e-3ffe-44c3-ab3e-baab61ba085c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\Item">
+      <UniqueIdentifier>{b1301cc3-2bdd-4627-9e1e-28e538b7ad7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\02.Demon">
+      <UniqueIdentifier>{0fc4e1ae-8f5a-4b75-a5f2-f5dc40991337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\03.UI\00.MainUI">
+      <UniqueIdentifier>{71ccdaf8-fee9-4b7e-8057-f67b9caf3b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\03.UI\01.NomalFont">
+      <UniqueIdentifier>{2735997c-a7f2-4f0b-a4e0-839299a24643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\03.UI\02.MiniFont">
+      <UniqueIdentifier>{a846d5ce-35b3-4f14-ab54-ee7edc443145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\03.UI\03.Face">
+      <UniqueIdentifier>{116eebc6-baea-4a18-943e-b3605709b38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\03.UI\04.UIHit">
+      <UniqueIdentifier>{5641a775-7a69-4b75-a0d5-f8ff59cb493a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\03.Baron">
+      <UniqueIdentifier>{f972134b-ee3c-47e9-86e2-eae7dbd81f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss">
+      <UniqueIdentifier>{93f3ca83-d61c-44c7-b9e9-5b17e424e0a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision">
+      <UniqueIdentifier>{78c1cc6d-1681-4285-92bf-b2ef2f464b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\00.Stage1_Boss">
+      <UniqueIdentifier>{bed6bbe2-953c-4c0e-b623-0717214fcd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\03.UI\05.YellowUI">
+      <UniqueIdentifier>{f35a7a62-d82c-4031-a8e7-3bb06b78b181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\05.Deco">
+      <UniqueIdentifier>{3d4d550b-4ab0-4090-acae-4d067587bfcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\04.PlasmaGun\Effect">
+      <UniqueIdentifier>{dff27475-fcc0-4cd2-bd8e-704670558141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\04.Sergeant">
+      <UniqueIdentifier>{7fe8c90d-94e7-4987-aec9-3bd3b45934ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\06.Elemental">
+      <UniqueIdentifier>{6d8bfa7a-d364-4bee-bbd6-e85abf26ecb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\07.NormalSordier">
+      <UniqueIdentifier>{5ec07340-24c4-4cc3-94ea-1e9db14d2f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Stage2\99.Boss">
+      <UniqueIdentifier>{f8377a2d-7909-42df-84fd-2c4a751a7963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Stage2\99.Boss\Stage2_Boss">
+      <UniqueIdentifier>{ecdf7dd1-43b6-427c-a652-7596583f6d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Stage2\99.Boss\Stage2_Boss_Bullet_Collision">
+      <UniqueIdentifier>{354b5086-5607-40d9-8bf0-49af187907fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Imp_Bullet">
+      <UniqueIdentifier>{4b5a2606-41e1-497b-8c79-96982e946718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Monster_NoBullet">
+      <UniqueIdentifier>{2f19eef6-817a-4652-afca-9f3489f16c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Elemental_Bullet">
+      <UniqueIdentifier>{66408b32-37b7-4ab5-9c88-c3b53d9726e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Baron_Bullet">
+      <UniqueIdentifier>{c60ceb3d-846e-4878-b2b9-56cdd6ac9958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Afrit_Bullet">
+      <UniqueIdentifier>{df675336-9387-4f79-bf58-6abd43c92130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Not_Use">
+      <UniqueIdentifier>{6a5cf639-56ac-4c62-bdbb-83b83daa51ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Deco_Bullet">
+      <UniqueIdentifier>{379f7a6f-f0ce-4ace-8bc4-bf7ca874d43d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet0">
+      <UniqueIdentifier>{40fd739e-98dd-4929-aab1-f073fb9a20ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet1">
+      <UniqueIdentifier>{0d3f7dee-bf5b-409f-b0ad-6107343a9b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\04.Stage2">
+      <UniqueIdentifier>{300e7c15-6a84-4e65-a203-a78f0924dae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\01.ShotGun\Effect">
+      <UniqueIdentifier>{ecaf4a34-4a78-413b-99d9-80293d716bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\02.BFG">
+      <UniqueIdentifier>{160de7e2-1545-4649-a022-6d3869ee4f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\02.BFG\00.Splash">
+      <UniqueIdentifier>{fbbde85d-c904-421f-99e3-fe87eb43ac71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\02.BFG\00.Splash\Bullet">
+      <UniqueIdentifier>{9f9be710-2929-4e20-bb4c-872a1731acf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Public\04.Bullet\02.BFG\00.Splash\Effect">
+      <UniqueIdentifier>{0108d2df-91e0-42fe-8ed1-bf705536a9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\00.Stage1_Boss\Effect">
+      <UniqueIdentifier>{db47d545-c54c-472c-afdc-349e8723ef3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet2">
+      <UniqueIdentifier>{13c76203-73cf-48dd-b193-8b91e0c98153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\02.SoundMgr">
+      <UniqueIdentifier>{78030845-c66b-4ffb-84f2-792f6f12ecaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet3">
+      <UniqueIdentifier>{37f5774a-b50a-470b-a1ac-bc3579442c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet4">
+      <UniqueIdentifier>{23f0708b-85cd-4d14-a289-7d848dad4d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet_Effect">
+      <UniqueIdentifier>{88a225fa-215d-46f7-806e-20e80fba5665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet_Effect\Blue">
+      <UniqueIdentifier>{8641e0fe-5e60-425f-b07e-064f40670a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet_Effect\Green">
+      <UniqueIdentifier>{491e2d76-1327-41f1-a54d-569675b2d615}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Constant.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Logo.h">
+      <Filter>01.Scene\00.Scene_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameMenu.h">
+      <Filter>01.Scene\01.Scene_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stage3.h">
+      <Filter>01.Scene\04.Scene_Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stage1.h">
+      <Filter>01.Scene\02.Scene_Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stage2.h">
+      <Filter>01.Scene\03.Scene_Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Dynamic_Camera.h">
+      <Filter>02.GameObject\00.Public\00.Dynamic_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SceneMgr.h">
+      <Filter>97.Manager\00.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Client_Terrain.h">
+      <Filter>02.GameObject\03.Stage1\02.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Back_Logo.h">
+      <Filter>02.GameObject\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Static_Camera.h">
+      <Filter>02.GameObject\00.Public\01.Static_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Client_Player.h">
+      <Filter>02.GameObject\00.Public\02.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sky.h">
+      <Filter>02.GameObject\00.Public\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Imp.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\00.Imp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Afrit.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\01.Afrit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\CollisionMgr.h">
+      <Filter>97.Manager\01.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Client_Menu.h">
+      <Filter>02.GameObject\02.Menu\00.MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Client_Button.h">
+      <Filter>02.GameObject\02.Menu\01.MenuButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Bullet_Basic.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\00.Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bullet_ShotGun.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\01.ShotGun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bullet_BFG.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\02.BFG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bullet_ChainGun.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\03.ChainGun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bullet_Plasma.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\04.PlasmaGun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wall_Cube.h">
+      <Filter>02.GameObject\00.Public\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Map_Object.h">
+      <Filter>02.GameObject\00.Public\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Demon.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\02.Demon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Item.h">
+      <Filter>02.GameObject\00.Public\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Face.h">
+      <Filter>02.GameObject\00.Public\03.UI\03.Face</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MiniFont.h">
+      <Filter>02.GameObject\00.Public\03.UI\02.MiniFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\NomalFont.h">
+      <Filter>02.GameObject\00.Public\03.UI\01.NomalFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Hit.h">
+      <Filter>02.GameObject\00.Public\03.UI\04.UIHit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Client_UI.h">
+      <Filter>02.GameObject\00.Public\03.UI\00.MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Baron.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\03.Baron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stage1_Boss.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\00.Stage1_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Yellow_UI.h">
+      <Filter>02.GameObject\00.Public\03.UI\05.YellowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Deco.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\05.Deco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BFG_Splash.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\02.BFG\00.Splash\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\BFG_Effect.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\02.BFG\00.Splash\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Plasma_Effect.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\04.PlasmaGun\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Sergeant.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\04.Sergeant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Elemental.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\06.Elemental</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_NormalSordier.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\07.NormalSordier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Imp_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Imp_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Sergeant_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Monster_NoBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Elemental_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Elemental_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Baron_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Baron_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monater_NormalSordier_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Not_Use</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Afrit_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Afrit_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster_Deco_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Deco_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss_Bullet_Collision1.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monater_NormalSordier_Bullet_Collision.h" />
+    <ClInclude Include="..\Headers\Effect_ShotGun.h">
+      <Filter>02.GameObject\00.Public\04.Bullet\01.ShotGun\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monater_NormalSordier_Bullet_Collision.h">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Hit_Effect.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\00.Stage1_Boss\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss_Bullet_Collision2.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Stage2_Boss.h">
+      <Filter>02.GameObject\04.Stage2\99.Boss\Stage2_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss_Rush_Collision.h">
+      <Filter>02.GameObject\04.Stage2\99.Boss\Stage2_Boss_Bullet_Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SoundMgr.h">
+      <Filter>97.Manager\02.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss_Bullet_Collision4.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Boss_Bullet_Collision3.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bullet_Effect_Blue.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet_Effect\Blue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Bullet_Effect_Green.h">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet_Effect\Green</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene.cpp">
+      <Filter>01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Logo.cpp">
+      <Filter>01.Scene\00.Scene_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameMenu.cpp">
+      <Filter>01.Scene\01.Scene_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stage3.cpp">
+      <Filter>01.Scene\04.Scene_Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stage1.cpp">
+      <Filter>01.Scene\02.Scene_Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stage2.cpp">
+      <Filter>01.Scene\03.Scene_Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Dynamic_Camera.cpp">
+      <Filter>02.GameObject\00.Public\00.Dynamic_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SceneMgr.cpp">
+      <Filter>97.Manager\00.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Client_Terrain.cpp">
+      <Filter>02.GameObject\03.Stage1\02.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Logo.cpp">
+      <Filter>02.GameObject\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Static_Camera.cpp">
+      <Filter>02.GameObject\00.Public\01.Static_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Client_Player.cpp">
+      <Filter>02.GameObject\00.Public\02.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sky.cpp">
+      <Filter>02.GameObject\00.Public\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Imp.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\00.Imp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Afrit.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\01.Afrit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\CollisionMgr.cpp">
+      <Filter>97.Manager\01.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Client_Menu.cpp">
+      <Filter>02.GameObject\02.Menu\00.MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Client_Button.cpp">
+      <Filter>02.GameObject\02.Menu\01.MenuButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet_Basic.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\00.Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet_ShotGun.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\01.ShotGun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet_BFG.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\02.BFG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet_ChainGun.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\03.ChainGun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet_Plasma.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\04.PlasmaGun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Wall_Cube.cpp">
+      <Filter>02.GameObject\00.Public\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Map_Object.cpp">
+      <Filter>02.GameObject\00.Public\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Demon.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\02.Demon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Item.cpp">
+      <Filter>02.GameObject\00.Public\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Face.cpp">
+      <Filter>02.GameObject\00.Public\03.UI\03.Face</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MiniFont.cpp">
+      <Filter>02.GameObject\00.Public\03.UI\02.MiniFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\NomalFont.cpp">
+      <Filter>02.GameObject\00.Public\03.UI\01.NomalFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Hit.cpp">
+      <Filter>02.GameObject\00.Public\03.UI\04.UIHit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Client_UI.cpp">
+      <Filter>02.GameObject\00.Public\03.UI\00.MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Baron.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\03.Baron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stage1_Boss.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\00.Stage1_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Yellow_UI.cpp">
+      <Filter>02.GameObject\00.Public\03.UI\05.YellowUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Deco.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\05.Deco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BFG_Splash.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\02.BFG\00.Splash\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\BFG_Effect.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\02.BFG\00.Splash\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Plasma_Effect.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\04.PlasmaGun\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Sergeant.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\04.Sergeant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Elemental.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\06.Elemental</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_NormalSordier.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\07.NormalSordier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Imp_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Imp_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Sergeant_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Monster_NoBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Elemental_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Elemental_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Baron_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Baron_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monater_NormalSordier_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Not_Use</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Afrit_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Afrit_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Deco_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision\Deco_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet0</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss_Bullet_Collision1.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monater_NormalSordier_Bullet_Collision.cpp" />
+    <ClCompile Include="..\Codes\Effect_ShotGun.cpp">
+      <Filter>02.GameObject\00.Public\04.Bullet\01.ShotGun\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monater_NormalSordier_Bullet_Collision.cpp">
+      <Filter>02.GameObject\03.Stage1\01.Monster\99.Monster_Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Hit_Effect.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\00.Stage1_Boss\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss_Bullet_Collision2.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Stage2_Boss.cpp">
+      <Filter>02.GameObject\04.Stage2\99.Boss\Stage2_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss_Rush_Collision.cpp">
+      <Filter>02.GameObject\04.Stage2\99.Boss\Stage2_Boss_Bullet_Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SoundMgr.cpp">
+      <Filter>97.Manager\02.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss_Bullet_Collision3.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Boss_Bullet_Collision4.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet_Effect_Blue.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet_Effect\Blue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Bullet_Effect_Green.cpp">
+      <Filter>02.GameObject\03.Stage1\98.Boss\99.Boss_Collision\Bullet_Effect\Green</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

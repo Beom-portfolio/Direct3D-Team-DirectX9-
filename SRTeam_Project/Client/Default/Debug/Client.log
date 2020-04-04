@@ -1,0 +1,243 @@
+<<<<<<< .mine
+﻿  Stage2.cpp
+  Client.vcxproj -> C:\Users\osm\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Client\Default\..\Bin\Client.exe
+||||||| .r170
+<<<<<<< .mine
+﻿  Stage2_Boss.cpp
+||||||| .r159
+﻿  stdafx.cpp
+  Client.cpp
+  Yellow_UI.cpp
+  Wall_Cube.cpp
+  Static_Camera.cpp
+  Stage3.cpp
+  Stage2_Boss.cpp
+  Stage2.cpp
+  Stage1_Boss.cpp
+  Stage1.cpp
+  Sky.cpp
+  SceneMgr.cpp
+  Scene.cpp
+  Plasma_Effect.cpp
+  NomalFont.cpp
+  Monster_Sergeant_Bullet_Collision.cpp
+  Monster_Sergeant.cpp
+  Monster_NormalSordier.cpp
+  Monster_Imp_Bullet_Collision.cpp
+  Monster_Imp.cpp
+  Monster_Elemental_Bullet_Collision.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Monster_Elemental.cpp
+  Monster_Demon.cpp
+  Monster_Deco_Bullet_Collision.cpp
+  Monster_Deco.cpp
+  Monster_Baron_Bullet_Collision.cpp
+  Monster_Baron.cpp
+  Monster_Afrit_Bullet_Collision.cpp
+  Monster_Afrit.cpp
+  Monater_NormalSordier_Bullet_Collision.cpp
+  MiniFont.cpp
+  Map_Object.cpp
+  MainGame.cpp
+  Logo.cpp
+  Item.cpp
+  Hit_Effect.cpp
+  Hit.cpp
+  GameMenu.cpp
+  Face.cpp
+  Effect_ShotGun.cpp
+  Dynamic_Camera.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CollisionMgr.cpp
+  Client_UI.cpp
+  Client_Terrain.cpp
+  Client_Player.cpp
+  Client_Menu.cpp
+  Client_Button.cpp
+  Bullet_ShotGun.cpp
+  Bullet_Plasma.cpp
+  Bullet_ChainGun.cpp
+  Bullet_BFG.cpp
+  Bullet_Basic.cpp
+  Boss_Bullet_Collision2.cpp
+  Boss_Bullet_Collision1.cpp
+  Boss_Bullet_Collision.cpp
+  BFG_Splash.cpp
+  BFG_Effect.cpp
+  Back_Logo.cpp
+  코드를 생성하고 있습니다...
+     ..\Bin\Client.lib 라이브러리 및 ..\Bin\Client.exp 개체를 생성하고 있습니다.
+=======
+<<<<<<< .mine
+﻿  Client_Player.cpp
+  Client.vcxproj -> C:\Users\dilki\Desktop\SR_Team\trunk\SRTeam_Project\Client\Default\..\Bin\Client.exe
+||||||| .r160
+﻿  stdafx.cpp
+  Client.cpp
+  Yellow_UI.cpp
+  Wall_Cube.cpp
+  Static_Camera.cpp
+  Stage3.cpp
+  Stage2_Boss.cpp
+  Stage2.cpp
+  Stage1_Boss.cpp
+  Stage1.cpp
+  Sky.cpp
+  SceneMgr.cpp
+  Scene.cpp
+  Plasma_Effect.cpp
+  NomalFont.cpp
+  Monster_Sergeant_Bullet_Collision.cpp
+  Monster_Sergeant.cpp
+  Monster_NormalSordier.cpp
+  Monster_Imp_Bullet_Collision.cpp
+  Monster_Imp.cpp
+  Monster_Elemental_Bullet_Collision.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Monster_Elemental.cpp
+  Monster_Demon.cpp
+  Monster_Deco_Bullet_Collision.cpp
+  Monster_Deco.cpp
+  Monster_Baron_Bullet_Collision.cpp
+  Monster_Baron.cpp
+  Monster_Afrit_Bullet_Collision.cpp
+  Monster_Afrit.cpp
+  Monater_NormalSordier_Bullet_Collision.cpp
+  MiniFont.cpp
+  Map_Object.cpp
+  MainGame.cpp
+  Logo.cpp
+  Item.cpp
+  Hit_Effect.cpp
+  Hit.cpp
+  GameMenu.cpp
+  Face.cpp
+  Effect_ShotGun.cpp
+  Dynamic_Camera.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CollisionMgr.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Client_UI.cpp
+  Client_Terrain.cpp
+  Client_Player.cpp
+  Client_Menu.cpp
+  Client_Button.cpp
+  Bullet_ShotGun.cpp
+  Bullet_Plasma.cpp
+  Bullet_ChainGun.cpp
+  Bullet_BFG.cpp
+  Bullet_Basic.cpp
+  Boss_Bullet_Collision2.cpp
+  Boss_Bullet_Collision1.cpp
+  Boss_Bullet_Collision.cpp
+  BFG_Splash.cpp
+  BFG_Effect.cpp
+  Back_Logo.cpp
+  코드를 생성하고 있습니다...
+     ..\Bin\Client.lib 라이브러리 및 ..\Bin\Client.exp 개체를 생성하고 있습니다.
+>>>>>>> .r164
+<<<<<<< .mine
+  Client.vcxproj -> C:\Users\dilki\Desktop\SR_Team\trunk\SRTeam_Project\Client\Default\..\Bin\Client.exe
+||||||| .r158
+  Client.vcxproj -> C:\Users\dilki\Desktop\SR_Team\trunk\SRTeam_Project\Client\Default\..\Bin\Client.exe
+=======
+﻿  Stage1_Boss.cpp
+  Hit_Effect.cpp
+||||||| .r156
+﻿  Stage1_Boss.cpp
+  Hit_Effect.cpp
+=======
+﻿  Plasma_Effect.cpp
+  Bullet_Plasma.cpp
+>>>>>>> .r157
+  코드를 생성하고 있습니다...
+  Client.vcxproj -> C:\Users\dilki\Desktop\SR_Team\trunk\SRTeam_Project\Client\Default\..\Bin\Client.exe
+>>>>>>> .r156
+=======
+  Client.vcxproj -> C:\Users\osm\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Client\Default\..\Bin\Client.exe
+>>>>>>> .r159
+=======
+﻿  CollisionMgr.cpp
+  Client.vcxproj -> C:\Users\KSB\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Client\Default\..\Bin\Client.exe
+>>>>>>> .r163
+=======
+﻿  stdafx.cpp
+  Client.cpp
+  Yellow_UI.cpp
+  Wall_Cube.cpp
+  Static_Camera.cpp
+  Stage3.cpp
+  Stage2_Boss.cpp
+  Stage2.cpp
+  Stage1_Boss.cpp
+  Stage1.cpp
+  SoundMgr.cpp
+  Sky.cpp
+  SceneMgr.cpp
+  Scene.cpp
+  Plasma_Effect.cpp
+  NomalFont.cpp
+  Monster_Sergeant_Bullet_Collision.cpp
+  Monster_Sergeant.cpp
+  Monster_NormalSordier.cpp
+  Monster_Imp_Bullet_Collision.cpp
+  Monster_Imp.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Monster_Elemental_Bullet_Collision.cpp
+  Monster_Elemental.cpp
+  Monster_Demon.cpp
+  Monster_Deco_Bullet_Collision.cpp
+  Monster_Deco.cpp
+  Monster_Baron_Bullet_Collision.cpp
+  Monster_Baron.cpp
+  Monster_Afrit_Bullet_Collision.cpp
+  Monster_Afrit.cpp
+  Monater_NormalSordier_Bullet_Collision.cpp
+  MiniFont.cpp
+  Map_Object.cpp
+  MainGame.cpp
+  Logo.cpp
+  Item.cpp
+  Hit_Effect.cpp
+  Hit.cpp
+  GameMenu.cpp
+  Face.cpp
+  Effect_ShotGun.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Dynamic_Camera.cpp
+  CollisionMgr.cpp
+  Client_UI.cpp
+  Client_Terrain.cpp
+  Client_Player.cpp
+  Client_Menu.cpp
+  Client_Button.cpp
+  Bullet_ShotGun.cpp
+  Bullet_Plasma.cpp
+  Bullet_Effect_Green.cpp
+  Bullet_Effect_Blue.cpp
+  Bullet_ChainGun.cpp
+  Bullet_BFG.cpp
+  Bullet_Basic.cpp
+  Boss_Rush_Collision.cpp
+  Boss_Bullet_Collision4.cpp
+  Boss_Bullet_Collision3.cpp
+  Boss_Bullet_Collision2.cpp
+  Boss_Bullet_Collision1.cpp
+  Boss_Bullet_Collision.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  BFG_Splash.cpp
+  BFG_Effect.cpp
+  Back_Logo.cpp
+  코드를 생성하고 있습니다...
+     ..\Bin\Client.lib 라이브러리 및 ..\Bin\Client.exp 개체를 생성하고 있습니다.
+  Client.vcxproj -> C:\Users\KSB\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Client\Default\..\Bin\Client.exe
+>>>>>>> .r172
+  Client.vcxproj -> ..\Bin\Client.pdb (Full PDB)

@@ -1,0 +1,12 @@
+﻿  Frame.cpp
+  Frame_Manager.cpp
+  Graphic_Device.cpp
+  Input_Device.cpp
+  Timer.cpp
+  Timer_Manager.cpp
+     ..\Bin\System.lib 라이브러리 및 ..\Bin\System.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  All 347 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  System.vcxproj -> C:\Users\osm\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
+  System.vcxproj -> ..\Bin\System.pdb (Full PDB)

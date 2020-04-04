@@ -1,0 +1,29 @@
+﻿  Camera.cpp
+  Component.cpp
+  Component_Manager.cpp
+  GameObject.cpp
+  Layer.cpp
+  Management.cpp
+  Material.cpp
+  Object_Manager.cpp
+  Picking.cpp
+  RectUI_Texture.cpp
+  Rect_Color.cpp
+  Rect_Cube.cpp
+  Rect_Texture.cpp
+  Renderer.cpp
+  Resources.cpp
+  Scene_Tool.cpp
+  Sky_Cube_Texture.cpp
+  Terrain_Buffer.cpp
+  Texture.cpp
+  Transform.cpp
+  컴파일하고 있습니다...
+  Triangle_Color.cpp
+  VIBuffer.cpp
+     ..\Bin\Utility.lib 라이브러리 및 ..\Bin\Utility.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  All 995 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Utility.vcxproj -> C:\Users\osm\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Engine\Utility\Default\..\Bin\Utility.dll
+  Utility.vcxproj -> ..\Bin\Utility.pdb (Full PDB)

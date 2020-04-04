@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Component.cpp">
+      <Filter>00.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Component_Manager.cpp">
+      <Filter>00.Component\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Resources.cpp">
+      <Filter>00.Component\01.Components\00.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Texture.cpp">
+      <Filter>00.Component\01.Components\00.Resource\01.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\VIBuffer.cpp">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Color.cpp">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\00.Rect_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Texture.cpp">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\01.Rect_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Triangle_Color.cpp">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\02.Triangle_Color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain_Buffer.cpp">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\03.Terrain_Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Rect_Cube.cpp">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\04.Cube_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Transform.cpp">
+      <Filter>00.Component\01.Components\01.Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Renderer.cpp">
+      <Filter>00.Component\01.Components\02.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Tool.cpp">
+      <Filter>01.Scene\01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Management.cpp">
+      <Filter>01.Scene\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Object_Manager.cpp">
+      <Filter>02.GameObject\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Layer.cpp">
+      <Filter>02.GameObject\01.Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Camera.cpp">
+      <Filter>02.GameObject\01.Layer\00.Object\00.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GameObject.cpp">
+      <Filter>02.GameObject\01.Layer\00.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Material.cpp">
+      <Filter>00.Component\01.Components\03.Material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Picking.cpp">
+      <Filter>00.Component\01.Components\04.Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Sky_Cube_Texture.cpp">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\05.Sky_Cube_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RectUI_Texture.cpp">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\06.RectUI_Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\Component.h">
+      <Filter>00.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Component_Manager.h">
+      <Filter>00.Component\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources.h">
+      <Filter>00.Component\01.Components\00.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Texture.h">
+      <Filter>00.Component\01.Components\00.Resource\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\VIBuffer.h">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rect_Color.h">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\00.Rect_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rect_Texture.h">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\01.Rect_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Triangle_Color.h">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\02.Triangle_Color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Terrain_Buffer.h">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\03.Terrain_Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Rect_Cube.h">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\04.Cube_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Transform.h">
+      <Filter>00.Component\01.Components\01.Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer.h">
+      <Filter>00.Component\01.Components\02.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Scene_Tool.h">
+      <Filter>01.Scene\01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Management.h">
+      <Filter>01.Scene\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Object_Manager.h">
+      <Filter>02.GameObject\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Layer.h">
+      <Filter>02.GameObject\01.Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Camera.h">
+      <Filter>02.GameObject\01.Layer\00.Object\00.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\GameObject.h">
+      <Filter>02.GameObject\01.Layer\00.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Material.h">
+      <Filter>00.Component\01.Components\03.Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Picking.h">
+      <Filter>00.Component\01.Components\04.Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Sky_Cube_Texture.h">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\05.Sky_Cube_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\RectUI_Texture.h">
+      <Filter>00.Component\01.Components\00.Resource\00.Buffers\06.RectUI_Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00.Component">
+      <UniqueIdentifier>{95ca2114-42ab-4f57-8a88-e0ee8c2bc195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\00.Manager">
+      <UniqueIdentifier>{c83c333c-ba2c-4566-93e4-023dd99b1cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components">
+      <UniqueIdentifier>{c1d3798f-a7ee-476d-8d5a-2c832aad8aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource">
+      <UniqueIdentifier>{f5776ca4-fa3c-421d-8b15-5f01eb823a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\00.Buffers">
+      <UniqueIdentifier>{2b32d457-d5c2-4ac6-a575-2f9d7eebca35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\01.Texture">
+      <UniqueIdentifier>{310e07e4-30d8-4023-aefe-a85ca3ea1f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\00.Buffers\00.Rect_Color">
+      <UniqueIdentifier>{a09ecc9c-1f4f-43fc-836d-6438a1b3b558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\00.Buffers\01.Rect_Texture">
+      <UniqueIdentifier>{a9cc933e-21f2-4164-ab70-883c1ce7ef87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\00.Buffers\02.Triangle_Color">
+      <UniqueIdentifier>{e1d651e1-64e9-4134-b11f-8a737b541ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\00.Buffers\03.Terrain_Buffer">
+      <UniqueIdentifier>{32079f1a-fa52-43f2-bbfb-1f011e7b20bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\00.Buffers\04.Cube_Texture">
+      <UniqueIdentifier>{c7b2ee81-4efb-48cb-bfab-3ba1aa61ce44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\01.Transform">
+      <UniqueIdentifier>{d017eafe-9d34-4e65-889d-7761744d4aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\02.Renderer">
+      <UniqueIdentifier>{99ac7dbd-941b-4ba9-8378-c4f96cf0ba6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{991fa5d8-70fe-45d2-a573-fbe7a7428914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Manager">
+      <UniqueIdentifier>{2e2fca88-35e5-4943-9ba9-518b9e60df4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Scene">
+      <UniqueIdentifier>{165a051c-0f7c-4ce7-b7fa-a759977ca75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{1e8238fc-761f-4d88-8a4c-0a4e74c67379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\00.Manager">
+      <UniqueIdentifier>{4b337d98-1456-4ad2-887e-f31f520b8861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Layer">
+      <UniqueIdentifier>{fc71b543-9ee6-4f90-a812-8aa87f83dbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Layer\00.Object">
+      <UniqueIdentifier>{c379203e-ef27-4e54-bcd0-30488c3cd29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\01.Layer\00.Object\00.Camera">
+      <UniqueIdentifier>{c7073eb2-3072-40bf-a6db-955d7a2aa2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\03.Material">
+      <UniqueIdentifier>{442f85e6-6cb3-484d-b5d8-60a0de332a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\04.Picking">
+      <UniqueIdentifier>{b5ab99ef-2eb6-4890-b21c-a46f3f18d2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\00.Buffers\05.Sky_Cube_Texture">
+      <UniqueIdentifier>{5000314e-b2a5-49c2-8919-c28198cf6cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Component\01.Components\00.Resource\00.Buffers\06.RectUI_Texture">
+      <UniqueIdentifier>{39599dbc-978a-4872-a359-7998be7e3ee0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

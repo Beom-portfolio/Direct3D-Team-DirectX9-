@@ -1,0 +1,20 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+<<<<<<< .mine
+Debug|Win32|C:\Users\osm\Desktop\76th_SrTeamB\trunk\SRTeam_Project\|
+||||||| .r170
+<<<<<<< .mine
+Debug|Win32|C:\Users\dilki\Desktop\SR_Team\trunk\SRTeam_Project\|
+||||||| .r160
+<<<<<<< .mine
+Debug|Win32|C:\Users\dilki\Desktop\SR_Team\trunk\SRTeam_Project\|
+||||||| .r158
+Debug|Win32|C:\Users\KSB\Desktop\76th_SrTeamB\trunk\SRTeam_Project\|
+=======
+Debug|Win32|C:\Users\osm\Desktop\76th_SrTeamB\trunk\SRTeam_Project\|
+>>>>>>> .r159
+=======
+Debug|Win32|C:\Users\KSB\Desktop\76th_SrTeamB\trunk\SRTeam_Project\|
+>>>>>>> .r163
+=======
+Debug|Win32|C:\Users\KSB\Desktop\76th_SrTeamB\trunk\SRTeam_Project\|
+>>>>>>> .r172
