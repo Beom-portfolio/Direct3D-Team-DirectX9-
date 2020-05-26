@@ -1,28 +1,2 @@
-﻿  Timer_Manager.cpp
-  Timer.cpp
-  Input_Device.cpp
-  Graphic_Device.cpp
-  Frame_Manager.cpp
-  Frame.cpp
-  코드를 생성하고 있습니다...
-     ..\Bin\System.lib 라이브러리 및 ..\Bin\System.exp 개체를 생성하고 있습니다.
-<<<<<<< .mine
-  System.vcxproj -> C:\Users\osm\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
-||||||| .r170
-<<<<<<< .mine
-  System.vcxproj -> C:\Users\dilki\Desktop\SR_Team\trunk\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
-||||||| .r160
-<<<<<<< .mine
-  System.vcxproj -> C:\Users\dilki\Desktop\SR_Team\trunk\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
-||||||| .r158
-  System.vcxproj -> C:\Users\KSB\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
-=======
-  System.vcxproj -> C:\Users\osm\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
->>>>>>> .r159
-=======
-  System.vcxproj -> C:\Users\KSB\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
->>>>>>> .r163
-=======
-  System.vcxproj -> C:\Users\KSB\Desktop\76th_SrTeamB\trunk\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
->>>>>>> .r172
+﻿  System.vcxproj -> E:\쥬신 폴더\SRTeam_Project\Engine\System\Default\..\Bin\System.dll
   System.vcxproj -> ..\Bin\System.pdb (Full PDB)

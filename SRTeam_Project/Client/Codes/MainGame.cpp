@@ -29,7 +29,7 @@ HRESULT CMainGame::Ready_MainGame(void)
 {
 	CSoundMgr::GetInstance()->LoadSoundFile();
 
-	if (FAILED(Ready_Default(g_hWnd, CGraphic_Device::MODE_FULL, WINCX, WINCY)))
+	if (FAILED(Ready_Default(g_hWnd, CGraphic_Device::MODE_WIN, WINCX, WINCY)))
 		return E_FAIL;
 
 	if (FAILED(Ready_StaticComponent()))
